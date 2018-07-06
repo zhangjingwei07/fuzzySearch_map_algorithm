@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2E48FF120EF0A4100F1DAB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FF020EF0A4100F1DAB4 /* main.cpp */; };
+		A2E48FF920EF0A6D00F1DAB4 /* Fuzzy_Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FF820EF0A6D00F1DAB4 /* Fuzzy_Search.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A2E48FED20EF0A4100F1DAB4 /* fuzzy_search_for_map */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fuzzy_search_for_map; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E48FF020EF0A4100F1DAB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2E48FF720EF0A6D00F1DAB4 /* Fuzzy_Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fuzzy_Search.h; sourceTree = "<group>"; };
+		A2E48FF820EF0A6D00F1DAB4 /* Fuzzy_Search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fuzzy_Search.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		A2E48FEF20EF0A4100F1DAB4 /* fuzzy_search_for_map */ = {
 			isa = PBXGroup;
 			children = (
+				A2E48FF820EF0A6D00F1DAB4 /* Fuzzy_Search.cpp */,
+				A2E48FF720EF0A6D00F1DAB4 /* Fuzzy_Search.h */,
 				A2E48FF020EF0A4100F1DAB4 /* main.cpp */,
 			);
 			path = fuzzy_search_for_map;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E48FF920EF0A6D00F1DAB4 /* Fuzzy_Search.cpp in Sources */,
 				A2E48FF120EF0A4100F1DAB4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
